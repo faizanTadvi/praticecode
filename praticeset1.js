@@ -52,11 +52,25 @@
 //     else console.log("player2 wins");
 // }
 // playgame(player1,player2);
-let user = false;
-let admin = false;
-function loginmessage(user){
-    user ? console.log("user login successfull"):console.log("Admin login");
+// let user = false;
+// let admin = false;
+// function loginmessage(user){
+//     user ? console.log("user login successfull"):console.log("Admin login");
+// }
+// loginmessage(user);
+
+let weather =prompt("enter weather condition: rainy or summer or winter");
+console.log("weather condition  " + weather);
+
+switch(weather){
+    case "rainy":
+    console.log("wear raincoat");
+    break;
+    case "summer":
+    console.log("apply sunscream");
+    break;
+    case "winter":
+    console.log("wear sweater");
 }
-loginmessage(user);
 
 
