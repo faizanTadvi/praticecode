@@ -1,7 +1,149 @@
 public class patterns {
     
     public static void main(String args[]){
-        // //butterfly pattern
+        // inverted half pyramid with numbers
+        int n = 5;
+        int number = 1;
+        //outer loop for rows
+        for(int i = n; i >= 1; i--){
+            //inner loop for columns
+            for(int j = 1; j <= i; j++){
+                System.out.print(i + " ");
+            }
+            System.out.println();
+        }
+
+        // // hollow rectangle pattern
+        // int n = 5;
+        // for(int i = 1; i<=n; i++){
+        //     //inner loop for columns
+        //     for(int j= 1; j<=2*(n-i); j++){
+        //         System.out.print(" ");
+        //     }
+        //     //inner loop for stars
+        //     for(int j = 1; j<=n; j++){
+        //         if(j == 1 || j == n || i == 1 || i == n){
+        //             System.out.print("*");
+        //         } else {
+        //             System.out.print(" ");
+        //         }
+        //     }
+        //     System.out.println();
+        // }
+    //     // hollow butterfly patternint
+    //     int n=5;
+    //     //upper half of the butterfly
+    //     for(int i=1;i<=n;i++){
+    //         //left stars
+    //         for(int j =1;j<=i;j++){
+    //             if(j==1 || j==i){
+    //                 System.out.print("*");
+
+    //             }
+    //             else{
+    //                 System.out.print(" ");
+    //             }
+    //         }
+    //         for(int k=1;k<=2*(n-i);k++){
+    //             System.out.print(" ");
+
+    //         }
+    //         for(int l =1;l<=n;l++){
+    //             if(l==1 || l==i){
+    //                 System.out.print("*");
+
+    //             }
+    //             else{
+    //                 System.out.print(" ");
+    //             }
+    //         }
+            
+        
+    //     System.out.println();
+    // }
+    // //lower half of the butterfly
+    // for(int i=n;i>=1;i--){
+    //         //left stars
+    //         for(int j =1;j<=i;j++){
+    //             if(j==1 || j==i){
+    //                 System.out.print("*");
+
+    //             }
+    //             else{
+    //                 System.out.print(" ");
+    //             }
+    //         }
+    //         for(int k=1;k<=2*(n-i);k++){
+    //             System.out.print(" ");
+
+    //         }
+    //         for(int l =1;l<=n;l++){
+    //             if(l==1 || l==i){
+    //                 System.out.print("*");
+
+    //             }
+    //             else{
+    //                 System.out.print(" ");
+    //             }
+    //         }
+            
+        
+    //     System.out.println();
+    // }
+
+
+        // // diamond pattern
+        // int n = 4;
+        // //upper half of the diamond
+        // for(int i=1; i<=n;i++){
+        //     for(int j= 1; j<=n-i;j++){
+        //         System.out.print(" ");
+        //     }
+        //     for(int j=1;j<=2*i-1;j++){
+        //         System.out.print("*");
+        //     }
+        //     System.out.println();
+        // }
+        // //lower half of the diamond
+        // for(int i=n; i>=1;i--){
+        //     for(int j= 1; j<=n-i;j++){
+        //         System.out.print(" ");
+        //     }
+        //     for(int j=1;j<=2*i-1;j++){
+        //         System.out.print("*");
+        //     }
+        //     System.out.println();
+        // }
+
+
+        // // diamond pattern
+        // int n = 8;
+        // //upper half of the diamond
+        // for(int i = 1; i<=n; i++){
+        //     //spaces
+        //     for(int j=1; j<=n-i; j++){
+        //         System.out.print(" ");
+        //     }
+        //     //stars
+        //     for(int j=1; j<=i;j++){
+        //         System.out.print("* ");
+        //     }
+        //     System.out.println();
+        // }
+        // //lower half of the diamond
+        // for(int i=n;i>=1;i--){
+        //     //spaces
+        //     for(int j= n-i;j>=1;j--){
+        //         System.out.print(" ");
+        //     }
+        //     //stars
+        //     for(int j=1; j<=i;j++){
+        //         System.out.print("* ");
+        //     }
+        //     System.out.println();
+        // }
+    
+        //butterfly pattern
         // int n = 5;
 
         // //upper half of the butterfly
